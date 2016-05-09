@@ -140,7 +140,7 @@ void test_iterator_smoketest(ErrorContext &ec) {
         point3d[0] = 2.3;
         point3d[1] = 3.2;
         point3d[2] = 4.2;
-
+        fixed_array<double>::iterator a= point3d.end();
         for (fixed_array<double>::iterator it = point3d.begin(); it != point3d.end(); ++it)
             ;
 
